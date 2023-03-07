@@ -1,0 +1,21 @@
+.Quantity {
+  display: flex;
+  padding-bottom: 5px;
+  height: 29px;
+  align-items: center;
+  justify-content: space-between;
+  span {
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .Quantity_minus,
+  .Quantity_plus {
+    cursor: pointer;
+  }
+}
